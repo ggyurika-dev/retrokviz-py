@@ -1,0 +1,20 @@
+Üdvözöllek a Retró Kvíz játékomban!
+Röviden összefoglalom hogy mik a játék alapjai!
+
+A kód PySimpleGui-t használ.
+
+A fejlesztésre szolgál egy Python 607 sorból álló forráskód.
+
+Kezdésképpen a RETROKVIZ.exe megnyitásával megjelenik egy teljes képernyős ablak, mely a felső konténerében megjeleníti a játék címét, célját, és két gombot a Kezdés és a Kilépés gombot.
+
+A Kezdés gomb megnyomásakor elindul a játék. Elindul a kvíz, megjelenik a nagy kérdés: "Melyik jármű ez?" mellette a kérdések álláspontja látható.
+Alatta egy kép, és 4 db gomb, melyben találhatod a válaszlehetőségeket, három helytelen és egy helyes válasz van. Ezek objektumok alatt a jelenlegi pontszámod láthatod.
+
+Ha menet közben feladnád, a főmenübe is és ki is tudsz lépni a játékból.
+
+A pontozás: Helyes válasz esetén +1 pont, helytelen válasz esetén -1 pont, ha az első kérdésre helytelen a válaszod kidob a főmenübe.
+
+A játék végén összesíti az eredményedet, és ha jó a teljesítményed agyon dicsér!
+
+A Kilépés gomb megnyomásakor bezáródik a játék.
+
